@@ -1,0 +1,563 @@
+{
+	"info": {
+		"_postman_id": "93545820-6ff3-4858-ace2-0bcdf4e5b03a",
+		"name": "V Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "STGV",
+			"item": [
+				{
+					"name": "http://stg-v.datalogics.com/api/2IMG",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/vsen/Downloads/Test-files/mozilla.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "mozilla.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "visethoutput",
+									"type": "text"
+								},
+								{
+									"key": "format",
+									"value": "jpg",
+									"type": "text"
+								},
+								{
+									"key": "first",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "with_color",
+									"value": "false",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://stg-v.datalogics.com/api/2IMG",
+							"protocol": "http",
+							"host": [
+								"stg-v",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"2IMG"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://stg-v.datalogics.com/api/2pdf/",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/vsen/Downloads/Test-files/maxresdefault.jpg"
+								},
+								{
+									"key": "filename",
+									"value": "maxresdefault.jpg",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "viseth3",
+									"type": "text"
+								},
+								{
+									"key": "profile",
+									"value": "standard",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://stg-v.datalogics.com/api/2pdf",
+							"protocol": "http",
+							"host": [
+								"stg-v",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"2pdf"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "FLIP2PDF"
+					},
+					"response": []
+				},
+				{
+					"name": "http://stg-v.datalogics.com/api/check",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/vsen/Downloads/Test-files/pdf995.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "pdf995.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "viseth2out-aws",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://stg-v.datalogics.com/api/check",
+							"protocol": "http",
+							"host": [
+								"stg-v",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"check"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://stg-v.datalogics.com/api/optimize",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/vsen/Downloads/Test-files/mozilla.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "mozilla.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "viseth",
+									"type": "text"
+								},
+								{
+									"key": "profile",
+									"value": "standard",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://stg-v.datalogics.com/api/optimize",
+							"protocol": "http",
+							"host": [
+								"stg-v",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"optimize"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "V",
+			"item": [
+				{
+					"name": "http://zapier-v.datalogics.com/api/2IMG",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/vsen/Downloads/Test-files/mozilla.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "mozilla.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "visethoutput",
+									"type": "text"
+								},
+								{
+									"key": "format",
+									"value": "jpg",
+									"type": "text"
+								},
+								{
+									"key": "first",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "with_color",
+									"value": "false",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier-v.datalogics.com/api/2IMG",
+							"protocol": "http",
+							"host": [
+								"zapier-v",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"2IMG"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://zapier-v.datalogics.com/api/2pdf",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/vsen/Downloads/Test-files/maxresdefault.jpg"
+								},
+								{
+									"key": "filename",
+									"value": "maxresdefault.jpg",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "viseth2pdf",
+									"type": "text"
+								},
+								{
+									"key": "profile",
+									"value": "standard",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier-v.datalogics.com/api/2pdf",
+							"protocol": "http",
+							"host": [
+								"zapier-v",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"2pdf"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "FLIP2PDF"
+					},
+					"response": []
+				},
+				{
+					"name": "http://zapier-v.datalogics.com/api/check",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/vsen/Downloads/Test-files/pdf995.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "pdf995.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "viseth2out-aws",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier-v.datalogics.com/api/check",
+							"protocol": "http",
+							"host": [
+								"zapier-v",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"check"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://zapier-v.datalogics.com/api/check Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/vsen/Downloads/Test-files/pdf995.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "pdf995.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "viseth2out-aws",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier-v.datalogics.com/api/check",
+							"protocol": "http",
+							"host": [
+								"zapier-v",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"check"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://zapier-v.datalogics.com/api/optimize?file=",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/vsen/Downloads/Test-files/mozilla.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "mozilla.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "viseth",
+									"type": "text"
+								},
+								{
+									"key": "profile",
+									"value": "standard",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://stg-zapier.datalogics.com/api/optimize?file=",
+							"protocol": "http",
+							"host": [
+								"stg-zapier",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"optimize"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

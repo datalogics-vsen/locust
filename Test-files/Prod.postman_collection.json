@@ -1,0 +1,432 @@
+{
+	"info": {
+		"_postman_id": "6bcc34ed-e979-49b4-99e0-ef165458380e",
+		"name": "Prod",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Prod",
+			"item": [
+				{
+					"name": "http://zapier.datalogics.com/bmp",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Test-files/mozilla.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "mozilla.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "visethoutput",
+									"type": "text"
+								},
+								{
+									"key": "format",
+									"value": "jpg",
+									"type": "text"
+								},
+								{
+									"key": "first",
+									"value": "true",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "with_color",
+									"value": "false",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier.datalogics.com/bmp",
+							"protocol": "http",
+							"host": [
+								"zapier",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"bmp"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://zapier.datalogics.com/jpg",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Test-files/mozilla.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "mozilla.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "visethoutput",
+									"type": "text"
+								},
+								{
+									"key": "format",
+									"value": "jpg",
+									"type": "text"
+								},
+								{
+									"key": "first",
+									"value": "true",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "with_color",
+									"value": "false",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier.datalogics.com/jpg",
+							"protocol": "http",
+							"host": [
+								"zapier",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"jpg"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://zapier.datalogics.com/png",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Test-files/mozilla.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "mozilla.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "visethoutput",
+									"type": "text"
+								},
+								{
+									"key": "format",
+									"value": "jpg",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "first",
+									"value": "true",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "with_color",
+									"value": "false",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier.datalogics.com/png",
+							"protocol": "http",
+							"host": [
+								"zapier",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"png"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://zapier.datalogics.com/gif",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Test-files/mozilla.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "mozilla.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "visethoutput",
+									"type": "text"
+								},
+								{
+									"key": "format",
+									"value": "jpg",
+									"type": "text"
+								},
+								{
+									"key": "first",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "with_color",
+									"value": "false",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier.datalogics.com/gif",
+							"protocol": "http",
+							"host": [
+								"zapier",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"gif"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://zapier.datalogics.com/tif",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Test-files/mozilla.pdf"
+								},
+								{
+									"key": "filename",
+									"value": "mozilla.pdf",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "visethoutput",
+									"type": "text"
+								},
+								{
+									"key": "format",
+									"value": "jpg",
+									"type": "text"
+								},
+								{
+									"key": "first",
+									"value": "true",
+									"type": "text"
+								},
+								{
+									"key": "with_color",
+									"value": "false",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier.datalogics.com/tif",
+							"protocol": "http",
+							"host": [
+								"zapier",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"tif"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "PDf2IMG on dev"
+					},
+					"response": []
+				},
+				{
+					"name": "http://zapier.datalogics.com/pdf",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "Test-files/maxresdefault.jpg"
+								},
+								{
+									"key": "filename",
+									"value": "maxresdefault.jpg",
+									"type": "text"
+								},
+								{
+									"key": "output",
+									"value": "viseth2pdf",
+									"type": "text"
+								},
+								{
+									"key": "profile",
+									"value": "standard",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://zapier.datalogics.com/api/2pdf",
+							"protocol": "http",
+							"host": [
+								"zapier",
+								"datalogics",
+								"com"
+							],
+							"path": [
+								"api",
+								"2pdf"
+							],
+							"query": [
+								{
+									"key": "file",
+									"value": "",
+									"disabled": true
+								}
+							]
+						},
+						"description": "FLIP2PDF"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
