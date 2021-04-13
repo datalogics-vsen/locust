@@ -1,0 +1,8 @@
+Alpha8
+http://ec2-3-82-152-205.compute-1.amazonaws.com
+
+Alpha7
+http://ec2-3-82-152-205.compute-1.amazonaws.com
+
+
+ssh -i "qa.pem" centos@ec2-52-87-153-50.compute-1.amazonaws.com
